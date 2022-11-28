@@ -7,18 +7,32 @@
 </head>
 <body>
 	<form action="trackFtp.php" method="post">
-		<label for="ftpServer">
-			Адрес FTP-сервера: <input type="text" name="ftpServer"> 
-		</label>
-		<label for="login">
-			Логин FTP-сервера: <input type="text" name = "login">
-		</label>
-		<label for="password">
-			Пароль FTP-сервера: <input type="password" name = "password">
-		</label>
-		<label for = "ftpDirectory">
-			Директория FTP-сервера: <input type="text" name = "ftpDirectory">
-		</label>
+		<div>
+			<label for="ftpServer">
+				Адрес FTP-сервера: <input type="text" name="ftpServer"> 
+			</label>
+		</div>
+
+		<div>
+			<label for="login">
+				Логин FTP-сервера: <input type="text" name = "login">
+			</label>
+		<div>
+
+		<div>
+
+			<label for="password">
+				Пароль FTP-сервера: <input type="password" name = "password">
+			</label>
+
+		</div>
+
+		<div>
+			<label for = "ftpDirectory">
+				Директория FTP-сервера: <input type="text" name = "ftpDirectory">
+			</label>
+		</div>
+
 		<input type="submit">
 	</form>
 </body>
