@@ -19,6 +19,7 @@
 		<label for = "ftpDirectory">
 			Директория FTP-сервера: <input type="text" name = "ftpDirectory">
 		</label>
+		<input type="submit">
 	</form>
 </body>
 </html>
